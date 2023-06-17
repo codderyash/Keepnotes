@@ -1,0 +1,38 @@
+<div class="container-fluid container-fluid-custom pb-5 mb-5 ">
+
+    <div class="row mb-4">
+        <div class="col">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/Dashboard">Dashboard</a></li>
+                    <li class="breadcrumb-item active">Add note</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+        <div class="col d-flex justify-content-between align-items-center">
+               <h1 class="h3">Add Notes</h1>
+               
+
+        </div>
+    
+
+         <form action="/dashboard/add" method="POST" class="position-relative mt-3">
+            <div class="form-group mb-4 position-absolute mt-2" style="left: 1px; top:1px; right:1px; ">
+                <input type="text" class="form-control fw-bold border-0 fs-4" id="title" name="title"  placeholder="Title">
+
+            </div>
+
+
+        
+
+         <div class="form-group mb-4">
+            <textarea class="form-control pt-5 fs-4" name="body" id="body"  rows="12" placeholder="take a note.."></textarea>
+         </div>
+         <div class="form-group">
+            <button type="submit" class="btn btn-primary">+ Add Note</button>
+         </div>
+        </form>
+
+</div>
+
