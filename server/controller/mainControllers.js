@@ -7,7 +7,7 @@ homepage
 exports.homepage = async (req, res) => {
 
     const locals = {
-        title: 'nodejs',
+        title: 'KeepNotes',
         description: 'very useful notes'
     }
 
